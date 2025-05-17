@@ -1,4 +1,4 @@
-Fake Reviews Identification using Deep Learning Techniques
+# Fake Reviews Identification using Deep Learning Techniques
 This project focuses on detecting fake product reviews using multiple deep learning models: CNN, RNN, LSTM, and BERT. A Streamlit web application is developed to demonstrate real-time predictions using all four models.
 
 Problem Statement:
