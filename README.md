@@ -1,10 +1,10 @@
 # Fake Reviews Identification using Deep Learning Techniques
 This project focuses on detecting fake product reviews using multiple deep learning models: CNN, RNN, LSTM, and BERT. A Streamlit web application is developed to demonstrate real-time predictions using all four models.
 
-Problem Statement:
+## Problem Statement:
 Online product reviews significantly influence customer decisions. However, the presence of fake reviews misleads consumers and harms businesses. This project aims to identify and classify reviews as Fake or Real using deep learning.
 
-Technologies Used:
+## Technologies Used:
 Python
 
 TensorFlow (for CNN, LSTM models)
@@ -19,7 +19,7 @@ Pickle (for saving tokenizers)
 
 Keras Preprocessing (for LSTM/CNN input preparation)
 
-Models Implemented"
+## Models Implemented
 🔸 Convolutional Neural Network (CNN)
 Text classification using convolutional filters.
 
@@ -40,7 +40,7 @@ Pretrained transformer model from Hugging Face.BERT significantly outperforms tr
 
 Accuracy: 98.00%
 
-💻 Streamlit Web App
+## 💻 Streamlit Web App
 An interactive web app lets users input custom review texts and classify them using all four models.
 
 App Features
@@ -64,12 +64,12 @@ BERT model: SravaniNirati/bert_fake_review_detection from Hugging Face
 
 Tokenizers: tokenizer_lstm.pkl, tokenizer_cnn.pkl, tokenizer_rnn.pkl
 
-Future Work:
+## Future Work:
 Improve RNN performance with GRU or bi-directional layers
 
 Integrate Explainable AI (LIME/SHAP) for model interpretation
 
 Add ensemble model for better accuracy
 
-👨‍💻Author
-Sravani Nirati
+## 👨‍💻Author
+### Sravani Nirati
